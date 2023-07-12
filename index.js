@@ -60,6 +60,7 @@ inquirer
   .then((answers) => {
     // Use user feedback for... whatever!!
     console.log(answers);
+    writeAnswersToREADME (answers);
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -68,3 +69,20 @@ inquirer
       // Something else went wrong
     }
   });
+
+  function writeAnswersToREADME (answers) {
+    var name = answers.nameInput
+    var title = answers.titleQuestionInput
+    var description = answers.descriptionInput
+    var installation = answers.installationInput
+    var usage = answers.usageInput
+    var contribution = answers.contributionInput
+    var test = answers.testInput
+    var license = answers.licenseInput
+    var github = answers.githubInput
+    var email = answers.emailInput
+
+    var readmeToWrite = 
+
+    fs.writeFile('newreadme.md', answers.nameInput, error => error ? console.log(error) : console.log('success'));
+  }
