@@ -4,11 +4,16 @@ var fs = require('fs');
 var inquirer = require('inquirer');
 inquirer
   .prompt([
-    /* Pass your questions in here */
+    // Input questions for user
     {
         type: 'input',
-        message: 'Please enter your first and last name?',
-        name: 'nameInput'
+        message: 'Please enter your first name?',
+        name: 'firstNameInput'
+      },
+      {
+        type: 'input',
+        message: 'Please enter your last name?',
+        name: 'lastNameInput'
       },
     {
         type: 'input',
@@ -44,7 +49,7 @@ inquirer
         type: 'list',
         message: 'Please select a license.',
         name: 'licenseInput',
-        choices: ['MIT','Apache 2.0','ISC','GNU General Public License v3.0','GNU General Public License v2.0'],
+        choices: ['MIT','Apache 2.0','Mozilla Public License 2.0','GNU General Public License v3.0','GNU General Public License v2.0'],
       },
       {
         type: 'input',
@@ -71,18 +76,59 @@ inquirer
   });
 
   function writeAnswersToREADME (answers) {
-    var name = answers.nameInput
-    var title = answers.titleQuestionInput
-    var description = answers.descriptionInput
-    var installation = answers.installationInput
-    var usage = answers.usageInput
-    var contribution = answers.contributionInput
-    var test = answers.testInput
-    var license = answers.licenseInput
-    var github = answers.githubInput
-    var email = answers.emailInput
+    var firstName = answers.firstNameInput;
+    var lastName = answers.lastNameInput;
+    var title = answers.titleQuestionInput;
+    var description = answers.descriptionInput;
+    var installation = answers.installationInput;
+    var usage = answers.usageInput;
+    var contribution = answers.contributionInput;
+    var test = answers.testInput;
+    var license = answers.licenseInput;
+    var github = answers.githubInput;
+    var email = answers.emailInput;
 
-    var readmeToWrite = 
+    var readmeToWrite = `
+    # ${title}
+    
+    ## Description
+    
+    ${description}
+    
+    ## Table of Contents 
+    
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contribution](#how-to-contribute)
+    - [Tests](#tests)
+    - [License](#license)
+    - [Contact](#contact-information)
+    
+    ## Installation
+    
+    ${installation}
+    
+    ## Usage
+    
+    ${usage}
+    
+    ## License
+    
+    ${license}
+    
+    ## How to Contribute
+    
+    ${contribution}
+    
+    ## Tests
+    
+    ${test}
+    
+    ## Contact Information
+    Created by: ${firstName} ${lastName}
+    ${github}
+    ${email}
+    `
 
-    fs.writeFile('newreadme.md', answers.nameInput, error => error ? console.log(error) : console.log('success'));
+    fs.writeFile('newreadme.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
   }
