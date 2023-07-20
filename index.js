@@ -125,7 +125,7 @@ ${description}
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [License](#license)
-- [Contact](#contact-information)
+- [Questions](#Questions)
 
 ## Installation
 
@@ -147,10 +147,11 @@ ${contribution}
 
 ${test}
 
-## Contact Information
+## Questions
 Created by: ${firstName} ${lastName}
-${github}
-${email}
+If there are any questions, please contact me via the following:
+GitHub: ${github}
+Email: ${email}
 `
 
   fs.writeFile('newreadme.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
