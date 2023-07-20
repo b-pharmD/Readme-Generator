@@ -122,8 +122,8 @@ ${description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#how-to-contribute)
 - [License](#license)
+- [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
