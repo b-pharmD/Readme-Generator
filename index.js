@@ -148,9 +148,9 @@ ${contribution}
 ${test}
 
 ## Questions
-Created by: ${firstName} ${lastName}
-If there are any questions, please contact me via the following:
-GitHub: ${github}
+Created by: ${firstName} ${lastName}<br>
+If there are any questions, please contact me via the following:<br>
+GitHub: ${github}<br>
 Email: ${email}
 `
 

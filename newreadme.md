@@ -1,10 +1,10 @@
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
-# Test Title
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# this is a test
 
 ## Description
 
-This is a test
+this is a test
 
 ## Table of Contents 
 
@@ -13,29 +13,30 @@ This is a test
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [License](#license)
-- [Contact](#contact-information)
+- [Questions](#Questions)
 
 ## Installation
 
-run npm install
+this is a test
 
 ## Usage
 
-open the terminal and enter: node index.js, then answer the prompts
+this is a test
 
 ## License
 
-This readme is covered under the following license: GNU General Public License v3.0. Please see https://choosealicense.com/licenses/
+This readme is covered under the following license: MIT. Please see https://choosealicense.com/licenses/
 
 ## How to Contribute
 
-Feel free to contribute
+this is a test
 
 ## Tests
 
-These are test instructions
+this is a test
 
-## Contact Information
-Created by: Brad Burr
-b-pharmD
-bradleyjamesburr@gmail.com
+## Questions
+Created by: this is a test this is a test<br>
+If there are any questions, please contact me via the following:<br>
+GitHub: this is a test<br>
+Email: this is a test
