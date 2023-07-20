@@ -42,7 +42,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Please enter the test instructions of your README.',
+      message: 'Please enter instructions for any tests for your README.',
       name: 'testInput'
     },
     {
@@ -123,9 +123,9 @@ ${description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#how-to-contribute)
-- [Tests](#tests)
 - [License](#license)
-- [Questions](#Questions)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -150,7 +150,7 @@ ${test}
 ## Questions
 Created by: ${firstName} ${lastName}\n
 If there are any questions, please contact me via the following:\n
-GitHub: ${github}\n
+GitHub: https://github.com/${github}\n
 Email: ${email}
 `
 

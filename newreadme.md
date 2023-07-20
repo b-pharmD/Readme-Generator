@@ -1,10 +1,10 @@
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
-# this is a test
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Sample README
 
 ## Description
 
-this is a test
+This is a sample of the functionality of the README Generator.
 
 ## Table of Contents 
 
@@ -13,33 +13,33 @@ this is a test
 - [Contribution](#how-to-contribute)
 - [Tests](#tests)
 - [License](#license)
-- [Questions](#Questions)
+- [Questions](#questions)
 
 ## Installation
 
-this is a test
+clone the repo and type the following into the console: npm install
 
 ## Usage
 
-this is a test
+type the following into the console: node index.js, then a series of prompts with appear for the user to answer and generate the text for the readme.
 
 ## License
 
-This readme is covered under the following license: GNU General Public License v2.0. Please see https://choosealicense.com/licenses/
+This readme is covered under the following license: MIT. Please see https://choosealicense.com/licenses/
 
 ## How to Contribute
 
-this is a test
+Feel free to contribute and create a pull request.
 
 ## Tests
 
-this is a test
+Any tests can be added to this section.
 
 ## Questions
 Created by: Brad Burr
 
 If there are any questions, please contact me via the following:
 
-GitHub: b-pharmD
+GitHub: https://github.com/b-pharmD
 
 Email: bradleyjamesburr@gmail.com
