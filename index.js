@@ -6,66 +6,66 @@ inquirer
   .prompt([
     // Input questions for user
     {
-        type: 'input',
-        message: 'Please enter your first name?',
-        name: 'firstNameInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter your last name?',
-        name: 'lastNameInput'
-      },
+      type: 'input',
+      message: 'Please enter your first name?',
+      name: 'firstNameInput'
+    },
     {
-        type: 'input',
-        message: 'Please enter the title of your README?',
-        name: 'titleQuestionInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter the description of your README?',
-        name: 'descriptionInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter the installation instructions of your README?',
-        name: 'installationInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter the usage information of your README.',
-        name: 'usageInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter the contribution guidelines of your README.',
-        name: 'contributionInput'
-      },
-      {
-        type: 'input',
-        message: 'Please enter the test instructions of your README.',
-        name: 'testInput'
-      },
-      {
-        type: 'list',
-        message: 'Please select a license.',
-        name: 'licenseInput',
-        choices: ['MIT','Apache 2.0','Mozilla Public License 2.0','GNU General Public License v3.0','GNU General Public License v2.0'],
-      },
-      {
-        type: 'input',
-        message: 'What is your GitHub username?',
-        name: 'githubInput'
-      },
-      {
-        type: 'input',
-        message: 'What is your email address?',
-        name: 'emailInput'
-      },
+      type: 'input',
+      message: 'Please enter your last name?',
+      name: 'lastNameInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the title of your README?',
+      name: 'titleQuestionInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the description of your README?',
+      name: 'descriptionInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the installation instructions of your README?',
+      name: 'installationInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the usage information of your README.',
+      name: 'usageInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the contribution guidelines of your README.',
+      name: 'contributionInput'
+    },
+    {
+      type: 'input',
+      message: 'Please enter the test instructions of your README.',
+      name: 'testInput'
+    },
+    {
+      type: 'list',
+      message: 'Please select a license.',
+      name: 'licenseInput',
+      choices: ['MIT', 'Apache 2.0', 'Mozilla Public License 2.0', 'GNU General Public License v3.0', 'GNU General Public License v2.0'],
+    },
+    {
+      type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'githubInput'
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'emailInput'
+    },
   ])
   .then((answers) => {
     // Use user feedback for... whatever!!
     console.log(answers);
-    writeAnswersToREADME (answers);
+    writeAnswersToREADME(answers);
   })
   .catch((error) => {
     if (error.isTtyError) {
@@ -75,60 +75,61 @@ inquirer
     }
   });
 
-  function writeAnswersToREADME (answers) {
-    var firstName = answers.firstNameInput;
-    var lastName = answers.lastNameInput;
-    var title = answers.titleQuestionInput;
-    var description = answers.descriptionInput;
-    var installation = answers.installationInput;
-    var usage = answers.usageInput;
-    var contribution = answers.contributionInput;
-    var test = answers.testInput;
-    var license = answers.licenseInput;
-    var github = answers.githubInput;
-    var email = answers.emailInput;
+function writeAnswersToREADME(answers) {
+  var firstName = answers.firstNameInput;
+  var lastName = answers.lastNameInput;
+  var title = answers.titleQuestionInput;
+  var description = answers.descriptionInput;
+  var installation = answers.installationInput;
+  var usage = answers.usageInput;
+  var contribution = answers.contributionInput;
+  var test = answers.testInput;
+  var license = answers.licenseInput;
+  var github = answers.githubInput;
+  var email = answers.emailInput;
 
-    var readmeToWrite = `
-    # ${title}
-    
-    ## Description
-    
-    ${description}
-    
-    ## Table of Contents 
-    
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#how-to-contribute)
-    - [Tests](#tests)
-    - [License](#license)
-    - [Contact](#contact-information)
-    
-    ## Installation
-    
-    ${installation}
-    
-    ## Usage
-    
-    ${usage}
-    
-    ## License
-    
-    ${license}
-    
-    ## How to Contribute
-    
-    ${contribution}
-    
-    ## Tests
-    
-    ${test}
-    
-    ## Contact Information
-    Created by: ${firstName} ${lastName}
-    ${github}
-    ${email}
-    `
+  var readmeToWrite =
+`
+# ${title}
 
-    fs.writeFile('newreadme.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
-  }
+## Description
+
+${description}
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#how-to-contribute)
+- [Tests](#tests)
+- [License](#license)
+- [Contact](#contact-information)
+
+## Installation
+
+${installation}
+
+## Usage
+
+${usage}
+
+## License
+
+${license}
+
+## How to Contribute
+
+${contribution}
+
+## Tests
+
+${test}
+
+## Contact Information
+Created by: ${firstName} ${lastName}
+${github}
+${email}
+`
+
+  fs.writeFile('newreadme.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
+}

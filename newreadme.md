@@ -1,41 +1,40 @@
 
-    # Sample README
-    
-    ## Description
-    
-    This is a test of the README Generator
-    
-    ## Table of Contents 
-    
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#how-to-contribute)
-    - [Tests](#tests)
-    - [License](#license)
-    - [Contact](#contact-information)
-    
-    ## Installation
-    
-    install it
-    
-    ## Usage
-    
-    use it
-    
-    ## License
-    
-    MIT
-    
-    ## How to Contribute
-    
-    feel free
-    
-    ## Tests
-    
-    use tests
-    
-    ## Contact Information
-    Created by: Brad Burr
-    b-pharmD
-    bradleyjamesburr@gmail.com
-    
+# test
+
+## Description
+
+test
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#how-to-contribute)
+- [Tests](#tests)
+- [License](#license)
+- [Contact](#contact-information)
+
+## Installation
+
+test
+
+## Usage
+
+test
+
+## License
+
+MIT
+
+## How to Contribute
+
+test
+
+## Tests
+
+test
+
+## Contact Information
+Created by: test test
+test 7/20/23
+test
