@@ -20,9 +20,11 @@ To install run npm install in the terminal.
 
 ## Usage
 
-<iframe src="https://drive.google.com/file/d/1glG6sb_o5nJnxeq4aCmr2y_KjsdBhKu8/preview" width="640" height="480"></iframe>
+<img src="/samplereadme.gif"><br>
 
 After installation, run node index.js in the terminal. Respond to all of the inquirer prompts and the application will populate the corresponding sections of the generated README.
+
+Or here is a link for the screencastify video of the functionality: [Screencastify](https://drive.google.com/file/d/1glG6sb_o5nJnxeq4aCmr2y_KjsdBhKu8/view)
 
 ## Credits
 
