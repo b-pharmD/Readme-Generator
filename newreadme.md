@@ -1,9 +1,10 @@
 
-# a
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+# Test Title
 
 ## Description
 
-a
+This is a test
 
 ## Table of Contents 
 
@@ -16,25 +17,25 @@ a
 
 ## Installation
 
-a
+run npm install
 
 ## Usage
 
-a
+open the terminal and enter: node index.js, then answer the prompts
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) MIT
+This readme is covered under the following license: GNU General Public License v3.0. Please see https://choosealicense.com/licenses/
 
 ## How to Contribute
 
-a
+Feel free to contribute
 
 ## Tests
 
-a
+These are test instructions
 
 ## Contact Information
-Created by: a a
-a
-a
+Created by: Brad Burr
+b-pharmD
+bradleyjamesburr@gmail.com

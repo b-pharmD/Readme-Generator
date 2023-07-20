@@ -111,6 +111,7 @@ function writeAnswersToREADME(answers) {
   var badge = displayBadge(license);
   var readmeToWrite =
 `
+${badge} 
 # ${title}
 
 ## Description
@@ -136,7 +137,7 @@ ${usage}
 
 ## License
 
-${badge} ${license}
+This readme is covered under the following license: ${license}. Please see https://choosealicense.com/licenses/
 
 ## How to Contribute
 
