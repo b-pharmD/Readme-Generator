@@ -8,32 +8,42 @@ This is an application that uses inquirer to prompt a user to create a readme ba
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#how-to-contribute)
-- [Tests](#tests)
+
+- [Credits](#credits)
 - [License](#license)
+- [Contribution](#how-to-contribute)
 - [Questions](#questions)
 
 ## Installation
 
-To install
+To install run npm install in the terminal.
 
 ## Usage
 
-this is a test
+<iframe src="https://drive.google.com/file/d/1glG6sb_o5nJnxeq4aCmr2y_KjsdBhKu8/preview" width="640" height="480"></iframe>
+
+After installation, run node index.js in the terminal. Respond to all of the inquirer prompts and the application will populate the corresponding sections of the generated README.
+
+## Credits
+
+I used ideas from the following sites:
+https://choosealicense.com/licenses/
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+https://www.codecademy.com/forum_questions/52f31477282ae3c473002317
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
 ## License
 
-This readme is covered under the following license: MIT. Please see https://choosealicense.com/licenses/
+None.
 
 ## How to Contribute
 
-this is a test
+Feel free to contribute and create a pull request.
 
 ## Questions
 Created by: Brad Burr
-
 If there are any questions, please contact me via the following:
-
 GitHub: b-pharmD
-
-Email: this is a test
+Email: bradleyjamesburr@gmail.com

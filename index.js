@@ -154,5 +154,5 @@ GitHub: https://github.com/${github}\n
 Email: ${email}
 `
 
-  fs.writeFile('newreadme.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
+  fs.writeFile('sampleREADME.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
 }

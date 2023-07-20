@@ -4,24 +4,24 @@
 
 ## Description
 
-This is a sample of the functionality of the README Generator.
+This is a sample of the functionality of this README Generator. It is generated from the user responses 
 
 ## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#how-to-contribute)
-- [Tests](#tests)
 - [License](#license)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
 
-clone the repo and type the following into the console: npm install
+Type npm install in the terminal
 
 ## Usage
 
-type the following into the console: node index.js, then a series of prompts with appear for the user to answer and generate the text for the readme.
+Type node index.js in the terminal and respond to all of the prompts
 
 ## License
 
@@ -33,7 +33,7 @@ Feel free to contribute and create a pull request.
 
 ## Tests
 
-Any tests can be added to this section.
+Any tests for the application can be added here.
 
 ## Questions
 Created by: Brad Burr
