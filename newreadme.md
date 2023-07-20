@@ -1,5 +1,5 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) 
 # this is a test
 
 ## Description
@@ -25,7 +25,7 @@ this is a test
 
 ## License
 
-This readme is covered under the following license: MIT. Please see https://choosealicense.com/licenses/
+This readme is covered under the following license: GNU General Public License v2.0. Please see https://choosealicense.com/licenses/
 
 ## How to Contribute
 
@@ -36,7 +36,10 @@ this is a test
 this is a test
 
 ## Questions
-Created by: this is a test this is a test<br>
-If there are any questions, please contact me via the following:<br>
-GitHub: this is a test<br>
-Email: this is a test
+Created by: Brad Burr
+
+If there are any questions, please contact me via the following:
+
+GitHub: b-pharmD
+
+Email: bradleyjamesburr@gmail.com
