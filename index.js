@@ -62,25 +62,13 @@ inquirer
       name: 'emailInput'
     },
   ])
+  //logs to console and calls function to write to README
   .then((answers) => {
-    // Use user feedback for... whatever!!
     console.log(answers);
-    console.log(answers.licenseInput);
-
-
     writeAnswersToREADME(answers);
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
   });
 
-  
-  
-
+//function that takes all of the user prompts and puts them in the README template
 function writeAnswersToREADME(answers) {
   var firstName = answers.firstNameInput;
   var lastName = answers.lastNameInput;
@@ -93,7 +81,7 @@ function writeAnswersToREADME(answers) {
   var license = answers.licenseInput;
   var github = answers.githubInput;
   var email = answers.emailInput;
-  var displayBadge = function(license) {
+  var displayBadge = function (license) {
     if (license === "MIT") {
       return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
     } else if (license === 'Apache 2.0') {
@@ -110,7 +98,7 @@ function writeAnswersToREADME(answers) {
   };
   var badge = displayBadge(license);
   var readmeToWrite =
-`
+    `
 ${badge} 
 # ${title}
 
@@ -154,5 +142,5 @@ GitHub: https://github.com/${github}\n
 Email: ${email}
 `
 
-  fs.writeFile('sampleREADME.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
+  fs.writeFile('newREADME.md', readmeToWrite, error => error ? console.log(error) : console.log('success'));
 }
