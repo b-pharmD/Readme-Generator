@@ -24,7 +24,7 @@ To install run npm install in the terminal.
 
 After installation, run node index.js in the terminal. Respond to all of the inquirer prompts and the application will populate the corresponding sections of the generated README.
 
-Or here is a link for the screencastify video of the functionality: [Screencastify](https://drive.google.com/file/d/1E1n48mO9cfyxyfti2OdTl677C6QwIIWr/view)
+Or here is a link for the screencastify video of the functionality: [Screencastify](https://drive.google.com/file/d/1-OOZ32RDqHAco0Yo3ulA-uf1ekU24MZf/view)
 
 ## Credits
 
